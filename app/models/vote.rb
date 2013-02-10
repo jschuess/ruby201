@@ -1,3 +1,3 @@
 class Vote < ActiveRecord::Base
-  attr_accessible :db, :rake, :topic_id
+  attr_accessible :topic_id
 end
